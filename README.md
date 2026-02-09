@@ -9,11 +9,7 @@ A default install only requires the user to sit patiently and, less than ten tim
 
 Tested on `bash` and `zsh` on [Cygwin](https://cygwin.com/install.html). Works on macOS, CentOS 7, and Windows on x86 CPUs with VT-x or AMD-V. Should work on most modern Linux distros.
 
-macOS Catalina (10.15), Mojave (10.14), and High Sierra (10.13) currently supported.
-
-## Maintainer wanted
-
-If you would like to become the maintainer of this repository, please see [issue #645 - maintainer wanted](https://github.com/myspaghetti/macos-virtualbox/issues/645).
+macOS Catalina (10.15), Mojave (10.14), and High Sierra (10.13) are currently supported.
 
 ## Documentation
 
@@ -59,7 +55,7 @@ The VirtualBox Native Execution Manager (NEM) is an experimental VirtualBox feat
 
 ### Bootloaders
 
-The macOS VirtualBox guest is loaded without extra bootloaders, but it is compatible with [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases). OpenCore requires additional configuration that is beyond the scope of  the script.
+The macOS VirtualBox guest is loaded without extra bootloaders, but it is compatible with [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases). OpenCore requires additional configuration that is beyond the scope of this script.
 
 ### Audio
 
